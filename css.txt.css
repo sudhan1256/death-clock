@@ -1,0 +1,91 @@
+body{
+    font-family: 'Bungee Spice', cursive;
+    color:drak black;
+}
+.wrapper{
+    display:flex;
+}
+#size{
+    font-size: larger;
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 4px;
+    font-size: xxx-large;
+}
+  
+.flex-left{
+    flex-basis: 50%;
+    
+}
+.flex-right{
+    flex-basis: 50%;
+}
+body{
+    background-image: url("https://wallup.net/wp-content/uploads/2016/07/19/3247-skull-chemistry-dark-death-748x421.png") ;
+    background-size: cover;
+    
+}
+select{
+    background-color: darkgray;
+    cursor: pointer;
+    width: 20%;
+}
+div{
+    border: 60px;
+    width: auto;
+    background-color: transparent;
+}
+#date{
+    background-color: darkgray;
+    width: 20%;
+    cursor: pointer;
+    
+}
+#button{
+    
+    font-size: large;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 1s;       
+    background-color:grey;
+    color: darkblue;
+    padding:10px;
+    box-shadow: inset;
+    width: 80%;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+      }
+#button:hover{
+    background-color:black;
+    color:crimson;
+}   
+#smoker{
+    display: none;
+    padding: 0 0 0 3em;;
+
+}  
+.calculate{
+    border-radius: 20px;
+    cursor: pointer;
+    color: darkblue;
+    background-color:grey;
+    font-family:'Creepster', cursive;
+    }
+.calculate:hover{
+    background-color:black;
+    color:crimson;
+}   
+
+ul{
+    list-style-image: linear-gradient(to right bottom, red,white);;
+}
+.result{
+    margin-top: 25%;
+    max-width: 10%;
+}
+.result-statement{
+    margin-top: 30%;
+    
+
+}

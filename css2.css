@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://wallup.net/wp-content/uploads/2016/07/19/3247-skull-chemistry-dark-death-748x421.png);
+    background-size: cover;
+}
+h1{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto ;
+  background-clip: border-box;
+  background-size: 200% ;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+  font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#pp{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    background-color: #fff800;
+    text-align: center;
+    margin:  10px 170px;
+}
+button{
+    text-align: center;
+    margin:  10px 170px;
+}
+#result{
+    text-align:justify;
+    margin:  10px 170px;
+    color: chartreuse;
+    font-size: larger;
+}
